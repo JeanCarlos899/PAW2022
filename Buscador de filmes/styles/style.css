@@ -59,7 +59,6 @@
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: #CAB9B9;
-    
 }
 
 #button:hover {
@@ -153,5 +152,22 @@
 
 .filmNoteOnImdb i {
     color: #F6C516;
+}
 
+.c-loader {
+    animation: is-rotating 1s infinite;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color: #51d4db;
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes is-rotating {
+    to {
+        transform: rotate(1turn);
+    }
 }

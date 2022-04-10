@@ -49,7 +49,7 @@
 }
 
 #button {
-    width: 120px;
+    width: 7.8vw;
     height: 40px;
     left: 1176px;
     top: 88px;
@@ -72,7 +72,7 @@
 }
 
 #boxText {
-    width: 294px;
+    width: 23vw;
     height: 40px;
     border-radius: 10px;
     background: #390F0F;
@@ -169,5 +169,5 @@
 @keyframes is-rotating {
     to {
         transform: rotate(1turn);
-    }
+        }
 }

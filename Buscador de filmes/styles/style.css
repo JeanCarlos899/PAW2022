@@ -17,11 +17,13 @@
 .filmImage {
     width: 25%;
     height: 80vh;
-    background-image: url(https://imdb-api.com/images/original/MV5BMTkzNjEzMDEzMF5BMl5BanBnXkFtZTgwMDI0MjE4MjE@._V1_Ratio0.7273_AL_.jpg);
+    background-image: url(https://i.ibb.co/FYDKs4V/MV5-BZDBm-OTdi-MGMt-NGJi-My00-MTE3-LWIz-Mj-Mt-NGVk-Mjdl-N2-E0-Nz-Ew-Xk-Ey-Xk-Fqc-Gde-QXVy-Nz-Qy-Nzky.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     border-radius: 10px 0 0 10px;
-    
+    position: relative;
+    background-size: cover;
+    background-position: center;
 }
 
 .infoAndFind {
@@ -43,6 +45,7 @@
     color: #D6D6D6;
     font-family: 'Roboto', sans-serif;
     margin: 30px 0 10px 0;
+    text-transform: uppercase;
 }
 
 #button {
@@ -53,6 +56,20 @@
     background: #217C8F;
     border-radius: 10px;
     border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #CAB9B9;
+    
+}
+
+#button:hover {
+    background: #1B5E20;
+    cursor: pointer;
+}
+
+#button:active {
+    background: #1B5E20;
+    transform: translateY(3px);
 }
 
 #boxText {
@@ -65,6 +82,8 @@
     border-radius: 10px;
     padding: 10px;
     outline: 0;
+    color: #D6D6D6;
+    font-weight: bold;
 }
 
 #filmYear, #filmRuntime  {
@@ -107,3 +126,32 @@
     font-weight: normal;
 }
 
+.filmNoteOnImdb {
+    background-color: #217C8F;
+    height: 30%;
+    clip-path: polygon(0 50%, 0 10%, 90% 100%, 50% 100%);
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+}
+
+.filmNoteOnImdb P {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 38px;
+    color: #D6D6D6;
+    margin: 95px 100px 50px 30px;
+    font-weight: bold;
+    text-align: center;
+    transform: rotate(48deg);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.filmNoteOnImdb i {
+    color: #F6C516;
+
+}

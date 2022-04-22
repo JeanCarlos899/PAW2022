@@ -5,8 +5,7 @@ const findFilm = async () => {
     const film = document.getElementById("boxText").value;
    
     if (film.length > 0) {
-    const url = `https://imdb-api.com/pt-bt/API/Search/k_8kw84xsp/${film}`;
-    
+        const url = `https://imdb-api.com/pt-bt/API/Search/k_8kw84xsp/${film}`;
         const dados = await fetch(url);
         const filmData = await dados.json();
         const filmId = filmData.results[0].id;

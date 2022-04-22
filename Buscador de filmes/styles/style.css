@@ -12,6 +12,7 @@
     justify-content: center;
     background-color: black;
     box-shadow: inset 0px 0px 120px #1b1b1b;
+    position: fixed;
 }
 
 .filmImage {

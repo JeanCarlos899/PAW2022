@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.central {
+main {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -84,6 +84,7 @@
     outline: 0;
     color: #D6D6D6;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 #filmYear, #filmRuntime  {
@@ -133,6 +134,7 @@
     width: 40%;
     position: absolute;
     bottom: 0;
+    left: 0;
 }
 
 .filmNoteOnImdb P {
